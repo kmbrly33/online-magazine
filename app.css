@@ -1,0 +1,123 @@
+body {
+    background: white;
+    font-family: "Nunito", "san-serif";
+}
+
+.blurb h2{
+    color: black;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+.blurb p{
+    color: black;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+
+}
+.content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+#mainNavbar {
+    font-size: 1.4rem;
+    font-weight: 100;    
+}
+
+#mainNavbar .nav-link{
+    color:  black;   
+}   
+
+#mainNavbar .nav-link:hover {
+    color: #eeba0b;  
+    font-size: 1.5rem;  
+}
+
+#mainNavbar .navbar-brand {
+    color: #fe6d73;
+    font-size: 2.2rem; 
+  
+}
+
+.crownIcon {
+    width: 64px;
+    height: 64px;
+}
+
+#headingGroup span {
+    color: #eeba0b;
+}
+
+#headingGroup h1 {
+    font-weight: 100;
+    font-size: 3.5rem;
+}
+
+h2 span {
+    color: #fe6d73;
+}
+
+#mainNavbar .nav-link.lighten {
+    color: white;
+}
+
+.navbar.scrolled {
+    background-color: black;
+    transition: background 500ms ;
+}
+
+.fa {
+  
+    font-size: 20px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    color: #eeba0b;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    color: white;
+  }
+
+  .fa-pinterest {
+    color: white; 
+    margin-right: 10px;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+  color: white;
+  }
+
+  .fa-instagram {
+      color: white;
+     
+  }
+
+@media (max-width: 1200px) {
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 3rem;  
+    }
+    
+}
+
+@media (max-width: 1200px) {
+    #mainNavbar .nav-link {
+        color: white;  
+    }
+}
+
+
+
+
+
+
+
